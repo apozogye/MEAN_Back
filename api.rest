@@ -1,0 +1,11 @@
+
+GET http://localhost:3000/api/empleados
+
+###
+
+GET http://localhost:3000/api/empleados/68f08e8e33e58c6cd06ffd80
+
+
+###
+
+GET http://localhost:3000/api/empleados/68f074c1e5fe3e92b18b3196

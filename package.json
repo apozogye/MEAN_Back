@@ -1,0 +1,30 @@
+{
+  "name": "mean_empleados_backend",
+  "version": "1.0.0",
+  "description": "Backend para gestion de empleados (MEAN)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --no-deprecation index.js",
+    "dev": "nodemon --no-deprecation index.js"
+  },
+  "keywords": [
+    "mean",
+    "express",
+    "mongodb",
+    "empleados"
+  ],
+  "author": "Alex Pozo",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.8.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
